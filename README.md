@@ -1,4 +1,4 @@
-# Orbit Surgical Website
+# SuFIA Website
 
 This is the repository that contains source code for the [SuFIA website](https://orbit-surgical.github.io/sufia).
 
