@@ -273,6 +273,78 @@
     </div>
     !--/ Supplementary Material. -- -->
 
+        <!-- Related Projects. -->
+        <div class="columns is-centered">
+          <div class="column is-full-width">
+            <h2 class="title is-3">Our Related Projects</h2>
+    
+            <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr style="padding:0px">
+                <td style="padding:0px">
+                  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    
+                    <tr onmouseout="sufia_bc_stop()" onmouseover="sufia_bc_start()">
+                      <td style="padding:20px;width:25%;vertical-align:top">
+                        <div class="one">
+                          <div class="two" id='sufia_bc_video'><video  width=100% muted autoplay loop>
+                          <source src="static/images/Organs.jpg" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video></div>
+                          <img src='static/images/Organs.jpg' width="100%" id='sufia_bc_image'>
+                        </div>
+                        <script type="text/javascript">
+                          function sufia_bc_start() {
+                            document.getElementById('sufia_bc_video').style.opacity = "1";
+                            document.getElementById('sufia_bc_image').style.opacity = "0";
+                          }
+              
+                          function sufia_bc_stop() {
+                            document.getElementById('sufia_bc_video').style.opacity = "0";
+                            document.getElementById('sufia_bc_image').style.opacity = "1";
+                          }
+                          sufia_bc_stop()
+                        </script>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:top">
+                        <a href="https://orbit-surgical.github.io/sufia-bc/">
+                          <span>SuFIA-BC: Generating High Quality Demonstration Data for Visuomotor Policy Learning in Surgical Subtasks</span>
+                        </a>
+                        <br>
+                        Masoud Moghani,
+                        Nigel Nelson,
+                        Mohamed Ghanem,
+                        Andres Diaz-Pinto,<br>
+                        Kush Hari,
+                        Mahdi Azizian,
+                        Ken Goldberg,
+                        Sean Huver,
+                        Animesh Garg
+                        <br>
+                        <a href="https://orbit-surgical.github.io/sufia-bc/">website</a>
+                        /
+                        <a href="">video</a>
+                        <p></p>
+                        <div class="content has-text-justified">
+                        <p>
+                          We present SuFIA-BC: exploring visual Behavior Cloning policies for Surgical First
+                          Interactive Autonomy Assistants. We provide an enhanced surgical digital twin with
+                          photorealistic human anatomical organs, integrated into ORBIT-Surgical designed to
+                          generate high-quality synthetic data for solving fundamental tasks in surgical autonomy.
+                          We investigate visual observation spaces including multi-view cameras and 3D visual
+                          representations extracted from a single endoscopic camera view.
+                        </p>
+                        </div>
+                      </td>
+                    </tr>              
+                  </tbody></table>
+                </td>
+              </tr>
+            </table>
+    
+          </div>
+        </div>
+        <!--/ Related Projects. -->
+
 
   </div>
 </section>
